@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-void main () {
+int main () {
 float n1, n2, n3, res;
 char nome[50];
 printf("\nBem vindo ao programa de teste para calcular a media de um aluno. Siga as instrucoes a seguir para ter uma boa experiencia. Primeiramente digite seu nome completo sem usar acentuacao e cedilha: \n");
@@ -23,4 +23,5 @@ printf("\n%s sua media foi no limite e voce tera que fazer recuperacao. \n", nom
 else{
 printf("\n%s voce foi reprovado.\n", nome);
 }
+return 0;
 }
