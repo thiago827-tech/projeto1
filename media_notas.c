@@ -17,7 +17,7 @@ res = (n1+n2+n3) / 3;
 if(res>=7){
 printf("\n%s sua media foi %.1f e com isso voce esta aprovado!\n", nome, res );
 }
-if(res=5){
+else if(res==5){
 printf("\n%s sua media foi no limite e voce tera que fazer recuperacao. \n", nome);
 }
 else{
